@@ -3,8 +3,9 @@
 
 * Schedule for the 2012 UEFA European Championship
  - source: http://en.wikipedia.org/wiki/UEFA_Euro_2012_schedule
- - all times are in UTC+2 (Central European Summer Time)
-  
+ - all times are in UTC+2 (Central European Summer Time) (but see the function
+   to change this at the end)
+ - maintained at https://github.com/djcb/org-euro2012
 
 ** Meta :meta:
 *** opening ceremony <2012-06-08 16:00>
@@ -12,75 +13,65 @@
 
 ** Group A 							      :GroupA:
 # Poland, Greece, Russia, Czech Republic
-*** Poland - Greece		 
-    <2012-06-08 18:00>		 
-*** Russia - Czech Republic	 
-   <2012-06-08 20:45>		 
-*** Greece - Czech Republic	 
-    <2012-06-12 18:00>		 
-*** Poland - Russia		 
-    <2012-06-12 20:45>		 
-*** Czech Republic - Poland	 
-    <2012-06-16 20:45>		 
-*** Greece - Russia		 
-    <2012-06-16 20:45>  
+*** Poland - Greece
+    <2012-06-08 18:00>
+*** Russia - Czech Republic
+   <2012-06-08 20:45>
+*** Greece - Czech Republic
+    <2012-06-12 18:00>
+*** Poland - Russia
+    <2012-06-12 20:45>
+*** Czech Republic - Poland
+    <2012-06-16 20:45>
+*** Greece - Russia
+    <2012-06-16 20:45>
 
 ** Group B 							      :GroupB:
 # Netherlands, Denmark, Germany, Portugal
-*** Netherlands - Denmark		 
-    <2012-06-09 18:00>		 
-*** Germany - Portugal	 
-   <2012-06-09 20:45>		 
-*** Denmark - Portugal	 
-    <2012-06-13 18:00>		 
-*** Netherlands - Germany		 
-    <2012-06-13 20:45>		 
-*** Portugal - Netherlands	 
-    <2012-06-17 20:45>		 
-*** Denmark - Germany		 
-    <2012-06-17 20:45>  
-
-
-     
-
-
+*** Netherlands - Denmark
+    <2012-06-09 18:00>
+*** Germany - Portugal
+   <2012-06-09 20:45>
+*** Denmark - Portugal
+    <2012-06-13 18:00>
+*** Netherlands - Germany
+    <2012-06-13 20:45>
+*** Portugal - Netherlands
+    <2012-06-17 20:45>
+*** Denmark - Germany
+    <2012-06-17 20:45>
 
 
 ** Group C 							      :GroupC:
 # Spain, Italy, Ireland, Croatia
-*** Spain - Italy		 
-    <2012-06-10 18:00>		 
-*** Ireland - Croatia	 
-    <2012-06-10 20:45>		 
-*** Italy - Croatia	 
-    <2012-06-14 18:00>		 
-*** Spain - Ireland		 
-    <2012-06-14 20:45>		 
-*** Croatia - Spain	 
-    <2012-06-18 20:45>		 
-*** Italy - Ireland		 
-    <2012-06-18 20:45>  
+*** Spain - Italy
+    <2012-06-10 18:00>
+*** Ireland - Croatia
+    <2012-06-10 20:45>
+*** Italy - Croatia
+    <2012-06-14 18:00>
+*** Spain - Ireland
+    <2012-06-14 20:45>
+*** Croatia - Spain
+    <2012-06-18 20:45>
+*** Italy - Ireland
+    <2012-06-18 20:45>
 
 
-     
-
-
-
- 
 ** Group D 							      :GroupD:
 # France, England, Ukraine, Sweden
-*** France - England		 
-    <2012-06-11 18:00>		 
-*** Ukraine - Sweden	 
-    <2012-06-11 20:45>		 
-*** Ukraine - France		 
+*** France - England
+    <2012-06-11 18:00>
+*** Ukraine - Sweden
+    <2012-06-11 20:45>
+*** Ukraine - France
     <2012-06-15 18:00>
-*** Sweden - England	 
-    <2012-06-15 20:45>		 
+*** Sweden - England
+    <2012-06-15 20:45>
 *** England - Ukraine
-    <2012-06-19 20:45>  
-*** Sweden - France	 
-    <2012-06-19 20:45>		 
+    <2012-06-19 20:45>
+*** Sweden - France
+    <2012-06-19 20:45>
 
 
 ** Quarter-finals 						   :QtFinals:
@@ -93,8 +84,6 @@
 *** (4) 1st Group D - 2nd Group C
     <2012-06-24 20:45>
 
-
-
 ** Semi-finals 							   :SemiFinals:
 *** (1) Winner QtFinal 1 - Winner QtFinals 3
     <2012-06-27 20:45>
@@ -104,3 +93,14 @@
 ** Final							       :Final:
 *** Winner SemiFinals 1 - Winner SemiFinals 2
     <2012-07-01 20:45>
+
+#+begin_src emacs-lisp
+(defun update-org-hours (n)
+  "Change all org-mode timestamps in the current buffer by N hours."
+  (interactive "nChange hours: ")
+  (save-excursion
+    (goto-char (point-min))
+    (while (re-search-forward "[[<]" nil t)
+      (when (org-at-timestamp-p t)
+        (org-timestamp-change n 'hour)))))
+#+end_src
