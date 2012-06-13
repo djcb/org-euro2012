@@ -13,13 +13,13 @@
 
 ** Group A 							      :GroupA:
 # Poland, Greece, Russia, Czech Republic
-*** Poland - Greece
+*** Poland - Greece           1-1
     <2012-06-08 18:00>
-*** Russia - Czech Republic
-   <2012-06-08 20:45>
-*** Greece - Czech Republic
+*** Russia - Czech Republic   4-1
+    <2012-06-08 20:45>
+*** Greece - Czech Republic   1-2
     <2012-06-12 18:00>
-*** Poland - Russia
+*** Poland - Russia           1-1
     <2012-06-12 20:45>
 *** Czech Republic - Poland
     <2012-06-16 20:45>
@@ -28,9 +28,9 @@
 
 ** Group B 							      :GroupB:
 # Netherlands, Denmark, Germany, Portugal
-*** Netherlands - Denmark
+*** Netherlands - Denmark     0-1
     <2012-06-09 18:00>
-*** Germany - Portugal
+*** Germany - Portugal        1-0
    <2012-06-09 20:45>
 *** Denmark - Portugal
     <2012-06-13 18:00>
@@ -44,9 +44,9 @@
 
 ** Group C 							      :GroupC:
 # Spain, Italy, Ireland, Croatia
-*** Spain - Italy
+*** Spain - Italy             1-1
     <2012-06-10 18:00>
-*** Ireland - Croatia
+*** Ireland - Croatia         1-3
     <2012-06-10 20:45>
 *** Italy - Croatia
     <2012-06-14 18:00>
@@ -60,9 +60,9 @@
 
 ** Group D 							      :GroupD:
 # France, England, Ukraine, Sweden
-*** France - England
+*** France - England          1-1
     <2012-06-11 18:00>
-*** Ukraine - Sweden
+*** Ukraine - Sweden          2-1
     <2012-06-11 20:45>
 *** Ukraine - France
     <2012-06-15 18:00>
