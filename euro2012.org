@@ -21,9 +21,9 @@
     <2012-06-12 18:00>
 *** Poland - Russia           1-1
     <2012-06-12 20:45>
-*** Czech Republic - Poland
+*** Czech Republic - Poland   1-0
     <2012-06-16 20:45>
-*** Greece - Russia
+*** Greece - Russia           1-0
     <2012-06-16 20:45>
 
 ** Group B 							      :GroupB:
@@ -32,13 +32,13 @@
     <2012-06-09 18:00>
 *** Germany - Portugal        1-0
    <2012-06-09 20:45>
-*** Denmark - Portugal
+*** Denmark - Portugal        2-3
     <2012-06-13 18:00>
-*** Netherlands - Germany
+*** Netherlands - Germany     1-2
     <2012-06-13 20:45>
-*** Portugal - Netherlands
+*** Portugal - Netherlands    2-1
     <2012-06-17 20:45>
-*** Denmark - Germany
+*** Denmark - Germany         1-2
     <2012-06-17 20:45>
 
 
@@ -48,13 +48,13 @@
     <2012-06-10 18:00>
 *** Ireland - Croatia         1-3
     <2012-06-10 20:45>
-*** Italy - Croatia
+*** Italy - Croatia           1-1
     <2012-06-14 18:00>
-*** Spain - Ireland
+*** Spain - Ireland           4-0
     <2012-06-14 20:45>
-*** Croatia - Spain
+*** Croatia - Spain           0-1
     <2012-06-18 20:45>
-*** Italy - Ireland
+*** Italy - Ireland           2-0
     <2012-06-18 20:45>
 
 
@@ -64,24 +64,24 @@
     <2012-06-11 18:00>
 *** Ukraine - Sweden          2-1
     <2012-06-11 20:45>
-*** Ukraine - France
+*** Ukraine - France          0-2
     <2012-06-15 18:00>
-*** Sweden - England
+*** Sweden - England          2-3
     <2012-06-15 20:45>
-*** England - Ukraine
+*** England - Ukraine         1-0
     <2012-06-19 20:45>
-*** Sweden - France
+*** Sweden - France           2-0
     <2012-06-19 20:45>
 
 
 ** Quarter-finals 						   :QtFinals:
-*** (1) 1st Group A - 2nd Group B
+*** (1) Czech Republic - Portugal
     <2012-06-21 20:45>
-*** (2) 1st Group B - 2nd Group A
+*** (2) Germany - Greece
     <2012-06-22 20:45>
-*** (3) 1st Group C - 2nd Group D
+*** (3) Spain - France
     <2012-06-23 20:45>
-*** (4) 1st Group D - 2nd Group C
+*** (4) England - Italy
     <2012-06-24 20:45>
 
 ** Semi-finals 							   :SemiFinals:
