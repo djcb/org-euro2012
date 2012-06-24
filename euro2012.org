@@ -81,13 +81,13 @@
     <2012-06-22 20:45>
 *** (3) Spain - France               2-0
     <2012-06-23 20:45>
-*** (4) England - Italy
+*** (4) England - Italy              2-3
     <2012-06-24 20:45>
 
 ** Semi-finals 							   :SemiFinals:
 *** (1) Portugal - Spain
     <2012-06-27 20:45>
-*** (2) Germany - Winner QtFinals 4
+*** (2) Germany - Italy
     <2012-06-28 20:45>
 
 ** Final							       :Final:
