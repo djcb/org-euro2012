@@ -75,19 +75,19 @@
 
 
 ** Quarter-finals 						   :QtFinals:
-*** (1) Czech Republic - Portugal
+*** (1) Czech Republic - Portugal    0-1
     <2012-06-21 20:45>
-*** (2) Germany - Greece
+*** (2) Germany - Greece             4-2
     <2012-06-22 20:45>
-*** (3) Spain - France
+*** (3) Spain - France               2-0
     <2012-06-23 20:45>
-*** (4) England - Italy
+*** (4) England - Italy              2-4
     <2012-06-24 20:45>
 
 ** Semi-finals 							   :SemiFinals:
-*** (1) Winner QtFinal 1 - Winner QtFinals 3
+*** (1) Portugal - Spain
     <2012-06-27 20:45>
-*** (2) Winner QtFinal 2 - Winner QtFinals 4
+*** (2) Germany - Italy
     <2012-06-28 20:45>
 
 ** Final							       :Final:
